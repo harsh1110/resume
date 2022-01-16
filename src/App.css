@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+/* HomePage */
+
+
+.background{
+  background-image: url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px !important;
+}
+.layer{
+  background: linear-gradient(120deg,rgba(78, 14, 14, 0.5),rgba(110, 16, 99, 0.5));
+  height: 700px !important;
+}
+.navbar-mui{
+  background: linear-gradient(120deg,rgb(81, 0, 128),#a70dad) !important;
+}
+
+h1{
+  color: rgb(255, 255, 255) !important;
+  font-size: 45px !important;
+  font-weight: 900;
+}
+h3{
+  color: rgb(175, 174, 174) !important;
+  font-size: 30px !important;
+  font-weight: 900;
+}
+
+
+/* IntroductionPage */
+
+.layer.intro{
+  background: linear-gradient(120deg,rgb(81, 0, 128),rgb(199, 18, 190));
+  height: auto !important;
+}
+.layer.edu{
+  padding-top: 70px !important;
+  background: linear-gradient(120deg,rgb(81, 0, 128),rgb(199, 18, 190));
+  height: 700px !important;
+}
+.layer.work{
+  padding-top: 70px !important;
+  background: linear-gradient(120deg,rgb(81, 0, 128),rgb(199, 18, 190));
+  height: 700px !important;
+}
+.layer.lan{
+  padding-top: 70px !important;
+  background: linear-gradient(120deg,rgb(81, 0, 128),rgb(199, 18, 190));
+  height: 700px !important;
+}
+.layer.skill{
+  height: auto !important;
+  padding-top: 20px !important;
+  background: linear-gradient(120deg,rgb(81, 0, 128),rgb(199, 18, 190));
+}
+.profilepic{
+  background-image: url("./images/profile.jpeg");
+}
+.btn{
+  background:linear-gradient(120deg,rgb(81, 0, 128),rgb(199, 18, 190));
+  transition: 0.5s all ease-in !important;
+}
+.btn:hover{
+  background:linear-gradient(50deg,rgb(121, 2, 190),rgb(223, 20, 212));
+  transition: 0.5s all ease-in !important;
+}
+h1.text-dark{
+  color:#8a089e !important;
+  font-weight: 700;
+}
+h1.text-dark.text-center{
+  color: white !important;
+}
+p{
+  color:white !important;
+}
+h6 svg{
+  color:#8a089e !important;
+}
+svg{
+  color: white !important;
+}
+
+
+/* Education */
+td{
+  font-size: 16px !important;
+}
+th{
+  font-size: 18px !important;
+}
+
+
+/* Skills */
+
+
+div.progress-bar{
+  background-color: #8a089e !important;
+}
+
+
+/* certificate */
+
+
+.title{
+  color: #8a089e !important;
+}
+.certi1{
+  background-image: url("./images/certificate/shapeai.png");
+}
+.certi2{
+  background-image: url("./images/certificate/wordpress.png");
+}
+.certi3{
+  background-image: url("./images/certificate/android.png");
+}
+.seminar1{
+  background-image: url("./images/seminar/advideandasist.png");
+}
+.ref1{
+  background-image: url("./images/referances/pareshbhatt.jpg");
+}
+.ref2{
+  background-image: url("./images/referances/chirayubhatt.jpg");
+}
+.ref3{
+  background-image: url("./images/referances/vikas.jpeg");
+}
+
+
+
+
+@media screen and (max-width:420px) {
+  .background{
+    background-image: url("./images/backgrond-phone.jpg") ;
+    height: 880px !important;
+  }
+  .layer{
+    height: 880px !important;
+  }
+  .layer.intro{
+    height: auto !important;
+  }
+  .layer.edu{
+    height:860px !important;
+    padding-top: 0px !important;
+  }
+  .layer.work{
+    height:860px !important;
+    padding-top: 50px !important;
+  }
+  .layer.lan{
+    height: 780px !important;
+    padding-top: 50px !important;
+  }
+  
+  .profilepic{
+    height: 250px !important;
+    background-image: url("./images/profile.jpeg") !important;
+  }
+  .certi1,.certi2,.certi3,.seminar1,.ref1,.ref2,.ref3{
+    height: 250px !important;
+  }
+  h1.text-dark.text-center{
+    font-size: 28px !important;
+  }
+}
