@@ -11,6 +11,7 @@ import Skills from './components/Skills';
 import Certificate from './components/Certificate';
 import Seminar from './components/Seminar';
 import Refrences from './components/Refrences';
+import FeedBack from './components/FeedBack';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/Cerificates" element={<Certificate/> } />
           <Route exact path="/Seminars" element={<Seminar/> } />
           <Route exact path="/Refrences" element={<Refrences/> } />
+          <Route exact path="/Contact%20Me" element={<FeedBack/> } />
         </Routes>
       </BrowserRouter>
     </>

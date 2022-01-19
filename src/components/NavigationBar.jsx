@@ -33,6 +33,7 @@ const options = [
     'Cerificates',
     'Seminars',
     'Refrences',
+    'Contact Me',
 ];
 
 // const ITEM_HEIGHT = 48;
